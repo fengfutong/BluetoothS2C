@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BluetoothC2S</string>
+    <string name="tip_client">提示：作为客户端，请先点击[检查是否有已保存的设备］，如果服务器在设备名单中，点击该名单，即可传递信息。若不在名单中，请保证服务器处于可被检测的状态，然后点击［扫描设备］，扫描到服务器之后，再点击［停止扫描］</string>
+    <string name="tip_server">提示：作为服务器，如果客户端尚未扫描到该设备，请先开启［启动设备可被检测］,然后再请点[作为开放服务器]按钮，开启服务器</string>
+    <string name="hint_server">显示从客户端接受过来的数据</string>
+    <string name="bluetooth_fail">蓝牙启动失败</string>
+    <string name="bluetooth_success">蓝牙启动成功</string>
+    <string name="bluetooth_check">蓝牙设置可被检查时长</string>
+    <string name="tip_message">请输入需要传递的信息</string>
+    <string name="server_success">开启服务器成功</string>
+    <string name="scan_cancel">取消扫描</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="not_found_device">尚未发现蓝牙设备</string>
+    <string name="not_support_bluetooth">系统不支持蓝牙</string>
+</resources>

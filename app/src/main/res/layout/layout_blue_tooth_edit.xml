@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/tv_tips"
+        android:text="提示："
+        android:textSize="15sp"
+        android:textColor="#f23030"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/edit"
+        android:textCursorDrawable="@null"
+        android:hint="请输入需要传递的数据"
+        android:background="@drawable/v1_shape_stroken_oval"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/tv_check"
+        android:background="@drawable/v1_selector_green"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="检查是否有已保存设备"
+        android:layout_height="40dp" />
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/tv_find"
+        android:background="@drawable/v1_selector_green"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="扫描设备"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/tv_stop"
+        android:background="@drawable/v1_selector_green"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="停止扫描设备"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/tv_can_check"
+        android:background="@drawable/v1_selector_green"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="启动设备可被检测"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:id="@+id/tv_server"
+        android:background="@drawable/v1_selector_green"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="作为开放服务器"
+        android:layout_height="40dp" />
+
+</LinearLayout>
